@@ -1,5 +1,5 @@
 ````python?code_reference&code_event_index=2
-# Creating the updated README.md file with the 12-hour auto-delete and full feature set
+
 content = """# My Daily Flow - Smart To-Do List
 
 A sleek, dark-themed productivity application designed to organize tasks into Morning, Afternoon, and Evening slots. Built with Next.js and Supabase, it features seamless cross-category drag-and-drop functionality and an automated data cleanup system.
