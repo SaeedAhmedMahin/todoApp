@@ -35,7 +35,7 @@ npm install -D @types/node @types/react @types/react-dom
 
 ## Database Schema
 
-The application relies on a `todos` table in Supabase with the following structure:
+The application relies on a `todo` table in Supabase with the following structure:
 
   - `id`: `int8` (Primary Key)
   - `description`: `text` (The task content)
@@ -54,7 +54,7 @@ select cron.schedule(
   'auto-delete-completed-todos',
   '0 * * * *', 
   $$
-  DELETE FROM public.todos
+  DELETE FROM public.todo
   WHERE completed = true
   AND created_at < now() - interval '12 hours'
   $$
