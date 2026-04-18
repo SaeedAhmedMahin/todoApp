@@ -1,5 +1,5 @@
 
-
+![My Daily Flow App](./public/TodoSS.png)
 # My Daily Flow - Smart To-Do List
 
 A sleek, dark-themed productivity application designed to organize tasks into Morning, Afternoon, and Evening slots. Built with Next.js and Supabase, it features seamless cross-category drag-and-drop functionality and an automated data cleanup system.
