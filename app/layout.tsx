@@ -32,12 +32,8 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className={`${inter.className} bg-red-500 text-slate-900 min-h-screen`}>
-        <div><Link href="/"> Home </Link>
-        <Link href="/contact"> Contact </Link>
-        <Link href="/about"> About </Link>
-        <Link href="/todos"> Todos </Link>
-        </div>
+      <body className={`${inter.className} min-h-screen`}>
+        
         {children}
         </body>
     </html>
