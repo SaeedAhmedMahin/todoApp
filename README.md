@@ -1,4 +1,4 @@
-````python?code_reference&code_event_index=2
+
 
 content = """# My Daily Flow - Smart To-Do List
 
@@ -31,7 +31,7 @@ npm install @supabase/supabase-js @supabase/ssr @hello-pangea/dnd
 
 # Type definitions (for dev)
 npm install -D @types/node @types/react @types/react-dom
-````
+```
 
 ## Database Schema
 
