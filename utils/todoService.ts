@@ -14,7 +14,7 @@ export const todoService = {
   // utils/todoService.ts
     async fetchTodos() {
         const { data, error } = await supabase
-            .from('todos')
+            .from('todo')
             .select('*')
             .order('position', { ascending: true });
 
@@ -72,7 +72,7 @@ export const todoService = {
     // Add this to your todoService object in utils/todoService.ts
     async updateTaskCategory(id: number, when: number, position: number) {
         const { error } = await supabase
-            .from('todos')
+            .from('todo')
             .update({ when, position })
             .eq('id', id);
         if (error) throw error;
